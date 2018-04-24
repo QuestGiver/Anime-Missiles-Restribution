@@ -171,6 +171,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -261,6 +265,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -357,6 +365,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -447,6 +459,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -539,6 +555,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -629,6 +649,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -725,6 +749,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -816,6 +844,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -844,6 +876,68 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &128948880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 128948883}
+  - component: {fileID: 128948882}
+  - component: {fileID: 128948881}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &128948881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 128948880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &128948882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 128948880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!4 &128948883
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 128948880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &129092050
 Prefab:
   m_ObjectHideFlags: 0
@@ -906,6 +1000,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -998,6 +1096,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -1088,6 +1190,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -1180,6 +1286,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -1270,6 +1380,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -1362,6 +1476,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -1452,6 +1570,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -1548,6 +1670,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -1643,6 +1769,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -1733,6 +1863,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -1825,6 +1959,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -1915,6 +2053,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -2007,6 +2149,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -2097,6 +2243,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -2189,6 +2339,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -2279,6 +2433,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -2371,6 +2529,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -2461,6 +2623,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -2557,6 +2723,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -2585,6 +2755,128 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &307407605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 307407606}
+  - component: {fileID: 307407609}
+  - component: {fileID: 307407608}
+  - component: {fileID: 307407607}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &307407606
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 307407605}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1842562523}
+  m_Father: {fileID: 630141356}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -355.14062, y: -183.14273}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &307407607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 307407605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 307407608}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 630141352}
+        m_MethodName: OnMouseInput
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &307407608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 307407605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &307407609
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 307407605}
 --- !u!1001 &337553834
 Prefab:
   m_ObjectHideFlags: 0
@@ -2647,6 +2939,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -2739,6 +3035,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -2829,6 +3129,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -2921,6 +3225,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -3011,6 +3319,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -3103,6 +3415,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -3131,6 +3447,133 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &383757413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 383757414}
+  - component: {fileID: 383757417}
+  - component: {fileID: 383757416}
+  - component: {fileID: 383757415}
+  m_Layer: 5
+  m_Name: Dropdown
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &383757414
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 383757413}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1079680827}
+  - {fileID: 1871020385}
+  - {fileID: 943976966}
+  m_Father: {fileID: 630141356}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -483.40002, y: 95.4}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &383757415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 383757413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 853051423, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 383757416}
+  m_Template: {fileID: 943976966}
+  m_CaptionText: {fileID: 1079680828}
+  m_CaptionImage: {fileID: 0}
+  m_ItemText: {fileID: 1157934842}
+  m_ItemImage: {fileID: 0}
+  m_Value: 0
+  m_Options:
+    m_Options:
+    - m_Text: Option A
+      m_Image: {fileID: 0}
+    - m_Text: Option B
+      m_Image: {fileID: 0}
+    - m_Text: Option C
+      m_Image: {fileID: 0}
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.Dropdown+DropdownEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &383757416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 383757413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &383757417
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 383757413}
 --- !u!1001 &392074040
 Prefab:
   m_ObjectHideFlags: 0
@@ -3193,6 +3636,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -3285,6 +3732,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -3375,6 +3826,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -3467,6 +3922,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -3558,6 +4017,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -3648,6 +4111,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -3744,6 +4211,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -3834,6 +4305,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -3926,6 +4401,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -4016,6 +4495,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -4108,6 +4591,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -4198,6 +4685,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -4290,6 +4781,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -4380,6 +4875,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -4472,6 +4971,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -4500,6 +5003,88 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &507061512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 507061513}
+  - component: {fileID: 507061514}
+  m_Layer: 5
+  m_Name: Item
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &507061513
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 507061512}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1765998007}
+  - {fileID: 987778077}
+  - {fileID: 1157934841}
+  m_Father: {fileID: 2116696922}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &507061514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 507061512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2109663825, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1765998008}
+  toggleTransition: 1
+  graphic: {fileID: 987778078}
+  m_Group: {fileID: 0}
+  onValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_IsOn: 1
 --- !u!1001 &510863148
 Prefab:
   m_ObjectHideFlags: 0
@@ -4562,6 +5147,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -4654,6 +5243,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -4744,6 +5337,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -4836,6 +5433,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -4926,6 +5527,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -5022,6 +5627,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -5117,6 +5726,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -5207,6 +5820,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -5299,6 +5916,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -5389,6 +6010,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -5481,6 +6106,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -5572,6 +6201,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -5600,6 +6233,115 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &630141351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 630141356}
+  - component: {fileID: 630141355}
+  - component: {fileID: 630141354}
+  - component: {fileID: 630141353}
+  - component: {fileID: 630141352}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &630141352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 630141351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90f9ceceace412e48b810d55b9f90cdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 0}
+--- !u!114 &630141353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 630141351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &630141354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 630141351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &630141355
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 630141351}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 1
+  m_Camera: {fileID: 1435904002}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &630141356
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 630141351}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 824944482}
+  - {fileID: 383757414}
+  - {fileID: 307407606}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1001 &651932535
 Prefab:
   m_ObjectHideFlags: 0
@@ -5662,6 +6404,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -5754,6 +6500,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -5845,6 +6595,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -5935,6 +6689,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -6031,6 +6789,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -6121,6 +6883,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -6213,6 +6979,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -6303,6 +7073,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -6395,6 +7169,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -6485,6 +7263,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -6577,6 +7359,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -6667,6 +7453,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -6759,6 +7549,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -6849,6 +7643,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -6941,6 +7739,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -7031,6 +7833,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -7123,6 +7929,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -7213,6 +8023,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -7309,6 +8123,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -7400,6 +8218,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -7490,6 +8312,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -7586,6 +8412,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -7676,6 +8506,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -7772,6 +8606,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -7800,6 +8638,80 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &824944481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 824944482}
+  - component: {fileID: 824944484}
+  - component: {fileID: 824944483}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &824944482
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 824944481}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 630141356}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -481.09998, y: 127}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &824944483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 824944481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Mode: ----'
+--- !u!222 &824944484
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 824944481}
 --- !u!1001 &825013317
 Prefab:
   m_ObjectHideFlags: 0
@@ -7873,6 +8785,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -7948,6 +8864,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -8040,6 +8960,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -8130,6 +9054,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -8222,6 +9150,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -8313,6 +9245,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -8403,6 +9339,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -8499,6 +9439,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -8594,6 +9538,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -8684,6 +9632,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -8776,6 +9728,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -8867,6 +9823,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -8895,6 +9855,40 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &898420657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 898420658}
+  m_Layer: 5
+  m_Name: Sliding Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &898420658
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 898420657}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1767037238}
+  m_Father: {fileID: 1107730768}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -20, y: -20}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &900383831
 Prefab:
   m_ObjectHideFlags: 0
@@ -8957,6 +9951,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -9049,6 +10047,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -9139,6 +10141,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -9235,6 +10241,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -9326,6 +10336,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -9354,6 +10368,108 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &943976965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 943976966}
+  - component: {fileID: 943976969}
+  - component: {fileID: 943976968}
+  - component: {fileID: 943976967}
+  m_Layer: 5
+  m_Name: Template
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &943976966
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 943976965}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1183979565}
+  - {fileID: 1107730768}
+  m_Father: {fileID: 383757414}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 2}
+  m_SizeDelta: {x: 0, y: 150}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &943976967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 943976965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1367256648, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Content: {fileID: 2116696922}
+  m_Horizontal: 0
+  m_Vertical: 1
+  m_MovementType: 2
+  m_Elasticity: 0.1
+  m_Inertia: 1
+  m_DecelerationRate: 0.135
+  m_ScrollSensitivity: 1
+  m_Viewport: {fileID: 1183979565}
+  m_HorizontalScrollbar: {fileID: 0}
+  m_VerticalScrollbar: {fileID: 1107730769}
+  m_HorizontalScrollbarVisibility: 0
+  m_VerticalScrollbarVisibility: 2
+  m_HorizontalScrollbarSpacing: 0
+  m_VerticalScrollbarSpacing: -3
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.ScrollRect+ScrollRectEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &943976968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 943976965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &943976969
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 943976965}
 --- !u!1001 &952913755
 Prefab:
   m_ObjectHideFlags: 0
@@ -9416,6 +10532,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -9508,6 +10628,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -9598,6 +10722,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -9690,6 +10818,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -9718,6 +10850,74 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &987778076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 987778077}
+  - component: {fileID: 987778079}
+  - component: {fileID: 987778078}
+  m_Layer: 5
+  m_Name: Item Checkmark
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &987778077
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 987778076}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 507061513}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 10, y: 0}
+  m_SizeDelta: {x: 20, y: 20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &987778078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 987778076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &987778079
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 987778076}
 --- !u!1001 &994656163
 Prefab:
   m_ObjectHideFlags: 0
@@ -9780,6 +10980,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -9872,6 +11076,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -9962,6 +11170,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -10054,6 +11266,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -10145,6 +11361,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -10235,6 +11455,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -10331,6 +11555,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -10421,6 +11649,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -10513,6 +11745,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -10603,6 +11839,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -10695,6 +11935,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -10723,6 +11967,80 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &1079680826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1079680827}
+  - component: {fileID: 1079680829}
+  - component: {fileID: 1079680828}
+  m_Layer: 5
+  m_Name: Label
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1079680827
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1079680826}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 383757414}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -7.5, y: -0.5}
+  m_SizeDelta: {x: -35, y: -13}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1079680828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1079680826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Option A
+--- !u!222 &1079680829
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1079680826}
 --- !u!1 &1086283383
 GameObject:
   m_ObjectHideFlags: 0
@@ -11047,6 +12365,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -11075,6 +12397,122 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &1107730767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1107730768}
+  - component: {fileID: 1107730771}
+  - component: {fileID: 1107730770}
+  - component: {fileID: 1107730769}
+  m_Layer: 5
+  m_Name: Scrollbar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1107730768
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1107730767}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 898420658}
+  m_Father: {fileID: 943976966}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 20, y: 0}
+  m_Pivot: {x: 1, y: 1}
+--- !u!114 &1107730769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1107730767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2061169968, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1767037239}
+  m_HandleRect: {fileID: 1767037238}
+  m_Direction: 2
+  m_Value: 0
+  m_Size: 0.2
+  m_NumberOfSteps: 0
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.Scrollbar+ScrollEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1107730770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1107730767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1107730771
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1107730767}
 --- !u!1001 &1113899833
 Prefab:
   m_ObjectHideFlags: 0
@@ -11137,6 +12575,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -11229,6 +12671,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -11319,6 +12765,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -11411,6 +12861,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -11501,6 +12955,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -11593,6 +13051,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -11683,6 +13145,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -11779,6 +13245,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -11807,6 +13277,80 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &1157934840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1157934841}
+  - component: {fileID: 1157934843}
+  - component: {fileID: 1157934842}
+  m_Layer: 5
+  m_Name: Item Label
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1157934841
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1157934840}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 507061513}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 5, y: -0.5}
+  m_SizeDelta: {x: -30, y: -3}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1157934842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1157934840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Option A
+--- !u!222 &1157934843
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1157934840}
 --- !u!1001 &1159280323
 Prefab:
   m_ObjectHideFlags: 0
@@ -11869,6 +13413,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -11961,6 +13509,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -11989,6 +13541,88 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &1183979564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1183979565}
+  - component: {fileID: 1183979568}
+  - component: {fileID: 1183979567}
+  - component: {fileID: 1183979566}
+  m_Layer: 5
+  m_Name: Viewport
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1183979565
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1183979564}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2116696922}
+  m_Father: {fileID: 943976966}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -18, y: 0}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1183979566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1183979564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1183979567
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1183979564}
+--- !u!114 &1183979568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1183979564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1200242548, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 0
 --- !u!1001 &1184507452
 Prefab:
   m_ObjectHideFlags: 0
@@ -12051,6 +13685,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -12143,6 +13781,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -12233,6 +13875,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -12325,6 +13971,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -12416,6 +14066,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -12453,15 +14107,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4145102148168592, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 36.997696
+      value: 35.7
       objectReference: {fileID: 0}
     - target: {fileID: 4145102148168592, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -37.15603
+      value: -36.6
       objectReference: {fileID: 0}
     - target: {fileID: 4145102148168592, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 24.43274
+      value: 24.9
       objectReference: {fileID: 0}
     - target: {fileID: 4145102148168592, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_LocalRotation.x
@@ -12506,6 +14160,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -12597,6 +14255,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -12693,6 +14355,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -12783,6 +14449,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -12875,6 +14545,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -12961,6 +14635,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -13053,6 +14731,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -13143,6 +14825,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -13235,6 +14921,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -13325,6 +15015,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -13417,6 +15111,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -13507,6 +15205,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -13599,6 +15301,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -13689,6 +15395,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -13781,6 +15491,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -13871,6 +15585,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -13963,6 +15681,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -14053,6 +15775,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -14145,6 +15871,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -14236,6 +15966,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -14326,6 +16060,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -14507,6 +16245,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -14597,6 +16339,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -14689,6 +16435,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -14779,6 +16529,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -14871,6 +16625,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -14961,6 +16719,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -15053,6 +16815,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -15143,6 +16909,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -15235,6 +17005,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -15325,6 +17099,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -15417,6 +17195,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -15507,6 +17289,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -15603,6 +17389,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -15693,6 +17483,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -15785,6 +17579,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -15875,6 +17673,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -15967,6 +17769,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -16057,6 +17863,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -16153,6 +17963,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -16243,6 +18057,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -16335,6 +18153,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -16425,6 +18247,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -16517,6 +18343,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -16607,6 +18437,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -16699,6 +18533,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -16789,6 +18627,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -16881,6 +18723,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -16971,6 +18817,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -17063,6 +18913,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -17153,6 +19007,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -17245,6 +19103,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -17335,6 +19197,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -17427,6 +19293,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -17517,6 +19387,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -17609,6 +19483,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -17699,6 +19577,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -17791,6 +19673,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -17881,6 +19767,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -17973,6 +19863,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -18001,6 +19895,142 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &1765998006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1765998007}
+  - component: {fileID: 1765998009}
+  - component: {fileID: 1765998008}
+  m_Layer: 5
+  m_Name: Item Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1765998007
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1765998006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 507061513}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1765998008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1765998006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1765998009
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1765998006}
+--- !u!1 &1767037237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1767037238}
+  - component: {fileID: 1767037240}
+  - component: {fileID: 1767037239}
+  m_Layer: 5
+  m_Name: Handle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1767037238
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1767037237}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 898420658}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0.2}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 20, y: 20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1767037239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1767037237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1767037240
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1767037237}
 --- !u!1001 &1767439285
 Prefab:
   m_ObjectHideFlags: 0
@@ -18067,6 +20097,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -18159,6 +20193,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -18249,6 +20287,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -18341,6 +20383,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -18431,6 +20477,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -18523,6 +20573,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -18614,6 +20668,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -18704,6 +20762,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -18800,6 +20862,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -18890,6 +20956,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -18982,6 +21052,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -19073,6 +21147,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -19101,6 +21179,80 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &1842562522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1842562523}
+  - component: {fileID: 1842562525}
+  - component: {fileID: 1842562524}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1842562523
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1842562522}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 307407606}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1842562524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1842562522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Button
+--- !u!222 &1842562525
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1842562522}
 --- !u!1001 &1850786353
 Prefab:
   m_ObjectHideFlags: 0
@@ -19167,6 +21319,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -19263,6 +21419,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -19354,6 +21514,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -19382,6 +21546,74 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &1871020384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1871020385}
+  - component: {fileID: 1871020387}
+  - component: {fileID: 1871020386}
+  m_Layer: 5
+  m_Name: Arrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1871020385
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1871020384}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 383757414}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -15, y: 0}
+  m_SizeDelta: {x: 20, y: 20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1871020386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1871020384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1871020387
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1871020384}
 --- !u!1001 &1876858263
 Prefab:
   m_ObjectHideFlags: 0
@@ -19444,6 +21676,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -19536,6 +21772,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -19626,6 +21866,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -19718,6 +21962,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -19808,6 +22056,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -19900,6 +22152,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -19991,6 +22247,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -20081,6 +22341,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -20177,6 +22441,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -20267,6 +22535,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -20363,6 +22635,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -20453,6 +22729,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -20549,6 +22829,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -20639,6 +22923,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -20731,6 +23019,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -20822,6 +23114,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -20912,6 +23208,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -21008,6 +23308,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -21098,6 +23402,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -21269,6 +23577,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -21359,6 +23671,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -21451,6 +23767,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -21541,6 +23861,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
@@ -21717,6 +24041,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -21812,6 +24140,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
   m_IsPrefabParent: 0
@@ -21840,6 +24172,40 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &2116696921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2116696922}
+  m_Layer: 5
+  m_Name: Content
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2116696922
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2116696921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 507061513}
+  m_Father: {fileID: 1183979565}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 28}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!1001 &2136367845
 Prefab:
   m_ObjectHideFlags: 0
@@ -21902,6 +24268,10 @@ Prefab:
     - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742552219012156, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}
+      propertyPath: m_TagString
+      value: Unbuildable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8086973e854cb74793c8acf4d5ac636, type: 2}

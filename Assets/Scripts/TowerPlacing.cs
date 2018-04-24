@@ -9,7 +9,6 @@ public class TowerPlacing : MonoBehaviour
     public float PlaceRate;
     [SerializeField]
     public GameObject[] Towers;
-    public RunTimeBake baker;
 
     // Use this for initialization
     void Start()
@@ -36,7 +35,6 @@ public class TowerPlacing : MonoBehaviour
                     if (hit.collider.tag != "tower" && hit.collider.tag != "Enemy")
                     {
                         GameObject newTower = Instantiate(Towers[0], hit.point, new Quaternion(0, 0, 0, 0));
-                        baker.Bake();
                         timer = 0;
                     }
 
