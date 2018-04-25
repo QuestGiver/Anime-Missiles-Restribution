@@ -7,6 +7,7 @@ TagManager:
   - Unbuildable
   - Buildable
   - Building
+  - PlacementArea
   layers:
   - Default
   - TransparentFX

@@ -8,5 +8,5 @@ public static class CommonAccessibles
     {
         COMMAND, BUILD, PRODUCTION
     }
-
+    public static Mode mode;
 }

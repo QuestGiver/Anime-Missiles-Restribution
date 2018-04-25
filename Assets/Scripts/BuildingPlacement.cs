@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BuildMenu : MonoBehaviour
+public class BuildingPlacement : MonoBehaviour
 {
     public delegate void CreateBuilding();
     CreateBuilding create;
     int selectedBuilding;
 
-    CommonAccessibles.Mode mode;
     public GameObject buildArea;
 
    // public float PlaceRate;
@@ -26,7 +25,11 @@ public class BuildMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        create();
+        if (create != null)
+        {
+            create();
+        }
+
     }
 
 
@@ -38,11 +41,15 @@ public class BuildMenu : MonoBehaviour
         Ray ray = cam.ScreenPointToRay(Input.mousePosition);
         Debug.DrawRay(ray.origin, ray.direction * 200, Color.yellow);
 
-        if (Physics.Raycast(ray, out hit, 200))
+        if (Physics.Raycast(ray, out hit, 200,0,QueryTriggerInteraction.Ignore))
         {
 
             //show build area
-
+            buildArea.transform.position = hit.point;
+            if (!buildArea.activeInHierarchy)
+            {
+                buildArea.SetActive(true);
+            }
 
 
 
@@ -53,8 +60,9 @@ public class BuildMenu : MonoBehaviour
                 //{
                 if (hit.collider.tag != "tower" && hit.collider.tag != "Enemy")
                 {
+                    buildArea.SetActive(false);
                     GameObject newBuilding = Instantiate(buildingItems[selectedBuilding].structure, hit.point, new Quaternion(0, 0, 0, 0));
-                    mode = CommonAccessibles.Mode.COMMAND;
+                    CommonAccessibles.mode = CommonAccessibles.Mode.COMMAND;                  
                     create -= BuildProccess;
                     // timer = 0;
                 }

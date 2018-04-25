@@ -6,7 +6,7 @@ public class InteractionManager : MonoBehaviour
 {
     public delegate void OnMouseAction();
     public OnMouseAction action;
-    CommonAccessibles.Mode mode;
+
 
     
 
@@ -21,42 +21,47 @@ public class InteractionManager : MonoBehaviour
 
     void Start()
     {
-        mode = CommonAccessibles.Mode.COMMAND;
+        CommonAccessibles.mode = CommonAccessibles.Mode.COMMAND;
     }
 
     // Update is called once per frame
 
-
-    private void OnMouseDown()
+    void Update()
     {
-        action();
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (CommonAccessibles.mode != CommonAccessibles.Mode.PRODUCTION || CommonAccessibles.mode != CommonAccessibles.Mode.BUILD)
+            {
+                action();
+            }
+        }
     }
+
 
     public void OnMouseInput()
     {
         
         RaycastHit hit;
-        if (mode != CommonAccessibles.Mode.PRODUCTION || mode != CommonAccessibles.Mode.BUILD)
-        {
+
             if (Physics.Raycast(cam.ScreenPointToRay(Input.mousePosition), out hit))
             {
                 switch (hit.collider.tag)
                 {
                     case "Buildable":
-                        mode = CommonAccessibles.Mode.BUILD;
+                        CommonAccessibles.mode = CommonAccessibles.Mode.BUILD;
 
                         break;
                     case "Building":
-                        mode = CommonAccessibles.Mode.PRODUCTION;
+                        CommonAccessibles.mode = CommonAccessibles.Mode.PRODUCTION;
                         break;
                     default:
                     case "Unbuildable":
-                        mode = CommonAccessibles.Mode.COMMAND;
+                        CommonAccessibles.mode = CommonAccessibles.Mode.COMMAND;
                         break;
 
                 }
             }
-        }
+ 
 
     }
 
