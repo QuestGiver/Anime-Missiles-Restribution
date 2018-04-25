@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ModeMonitorr : MonoBehaviour
 {
-    public string currentMode = CommonAccessibles.mode.ToString();
+    public string currentMode = CommonAccessibles.ModeState.ToString();
     // Use this for initialization
     void Start()
     {
@@ -14,7 +14,7 @@ public class ModeMonitorr : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        currentMode = CommonAccessibles.mode.ToString();
-        Debug.Log(CommonAccessibles.mode);
+        currentMode = CommonAccessibles.ModeState.ToString();
+        Debug.Log(CommonAccessibles.ModeState);
     }
 }

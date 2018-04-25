@@ -21,7 +21,7 @@ public class InteractionManager : MonoBehaviour
 
     void Start()
     {
-        CommonAccessibles.mode = CommonAccessibles.Mode.COMMAND;
+        CommonAccessibles.ModeState = CommonAccessibles.Mode.COMMAND;
     }
 
     // Update is called once per frame
@@ -30,7 +30,7 @@ public class InteractionManager : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            if (CommonAccessibles.mode != CommonAccessibles.Mode.PRODUCTION || CommonAccessibles.mode != CommonAccessibles.Mode.BUILD)
+            if (CommonAccessibles.ModeState != CommonAccessibles.Mode.PRODUCTION || CommonAccessibles.ModeState != CommonAccessibles.Mode.BUILD)
             {
                 action();
             }
@@ -48,15 +48,15 @@ public class InteractionManager : MonoBehaviour
                 switch (hit.collider.tag)
                 {
                     case "Buildable":
-                        CommonAccessibles.mode = CommonAccessibles.Mode.BUILD;
+                        CommonAccessibles.ModeState = CommonAccessibles.Mode.BUILD;
 
                         break;
                     case "Building":
-                        CommonAccessibles.mode = CommonAccessibles.Mode.PRODUCTION;
+                        CommonAccessibles.ModeState = CommonAccessibles.Mode.PRODUCTION;
                         break;
                     default:
                     case "Unbuildable":
-                        CommonAccessibles.mode = CommonAccessibles.Mode.COMMAND;
+                        CommonAccessibles.ModeState = CommonAccessibles.Mode.COMMAND;
                         break;
 
                 }

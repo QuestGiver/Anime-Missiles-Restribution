@@ -62,7 +62,7 @@ public class BuildingPlacement : MonoBehaviour
                 {
                     buildArea.SetActive(false);
                     GameObject newBuilding = Instantiate(buildingItems[selectedBuilding].structure, hit.point, new Quaternion(0, 0, 0, 0));
-                    CommonAccessibles.mode = CommonAccessibles.Mode.COMMAND;                  
+                    CommonAccessibles.ModeState = CommonAccessibles.Mode.COMMAND;                  
                     create -= BuildProccess;
                     // timer = 0;
                 }

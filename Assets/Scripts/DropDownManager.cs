@@ -21,53 +21,20 @@ public class DropDownManager : MonoBehaviour
     void Start()
     {
         dropDown.Hide();
-        dropDown.onValueChanged.AddListener(delegate{OnModeChange();});//when an option in the dropdown menu is selected
-        //interaction.action += OnModeChange;
+        
+
     }
 
-    void OnDropdownValueChanged(Dropdown change)//run external function
+    private void OnMouseDown()
     {
-        dropDown.Hide();
-        modeDependentFunction(change.value);
-
-    }
-
-
-    public void ExcuteModeFunction()
-    {
-        modeDependentFunction(dropDown.value);
-    }
-
-    public void OnModeChangeUpdateDropDown()//prepares the dropdown menue for the player before an option is chosen by the player
-    {       
-        dropDown.ClearOptions();
-        options.Clear();
-        modeDependentFunction = null;
-        switch (CommonAccessibles.mode)
+        for (int i = 0; i < buildingPlacement.buildingItems.Length; i++)
         {
-
-            case CommonAccessibles.Mode.BUILD:
-
-                for (int i = 0; i < buildingPlacement.buildingItems.Length; i++)
-                {
-                    options.Add(buildingPlacement.buildingItems[i].name);
-                }
-                modeDependentFunction += buildingPlacement.OnSelectedBuilding;
-                dropDown.AddOptions(options);
-                dropDown.Show();
-                
-
-                break;
-
-            case CommonAccessibles.Mode.PRODUCTION:
-                CommonAccessibles.mode = CommonAccessibles.Mode.COMMAND;//temporary
-                break;
-            default:
-            case CommonAccessibles.Mode.COMMAND:
-                
-                break;
+            options[i] = buildingPlacement.buildingItems[i].name;
         }
 
+        CommonAccessibles.ModeState = CommonAccessibles.Mode.BUILD;
+
+        modeDependentFunction += buildingPlacement.OnSelectedBuilding;
     }
 
 }

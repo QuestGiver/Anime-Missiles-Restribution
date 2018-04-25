@@ -8,5 +8,24 @@ public static class CommonAccessibles
     {
         COMMAND, BUILD, PRODUCTION
     }
-    public static Mode mode;
+
+
+
+    public static Mode ModeState
+    {
+        get
+        {
+            return ModeState;
+        }
+
+        set
+        {
+            OnModeChange();
+            ModeState = value;
+        }
+    }
+
+    public delegate void GiveOrderOnVariableChange();
+    public static GiveOrderOnVariableChange OnModeChange;
+
 }
