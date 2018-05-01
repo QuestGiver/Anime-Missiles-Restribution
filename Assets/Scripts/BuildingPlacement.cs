@@ -47,7 +47,7 @@ public class BuildingPlacement : VirtualStateFunction
         Ray ray = cam.ScreenPointToRay(Input.mousePosition);
         Debug.DrawRay(ray.origin, ray.direction * 200, Color.yellow);
 
-        if (Physics.Raycast(ray, out hit, 200.0f))
+        if (Physics.Raycast(ray, out hit, 200.0f,5))
         {
 
             //show build area
@@ -69,7 +69,7 @@ public class BuildingPlacement : VirtualStateFunction
                     buildArea.SetActive(false);
                     GameObject newBuilding = Instantiate(buildingItems[selectedBuilding].structure, hit.point, new Quaternion(0, 0, 0, 0));
                     CommonAccessibles.ModeState = CommonAccessibles.Mode.COMMAND;                  
-                    create -= BuildProccess;
+                    create = null;
                     // timer = 0;
                 }
 

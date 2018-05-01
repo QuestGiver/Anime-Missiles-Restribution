@@ -2,28 +2,46 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Building : MonoBehaviour
+public class Building : MonoBehaviour, IDamageable
 {
-    
-    ProduceUnitsManager produceUnitsObject;
+   
     public UnitItem[] units;
-    public int Hp;
+    private float Hp;
+    public float GetSetHp
+    {
+        get
+        {
+            return Hp;
+        }
+        set
+        {
+            Hp = value;
+            if (Hp <= 0)
+            {
+                OnDeath();
+            }
+        }
+    }
 
     // Use this for initialization
-    void Start()
-    {
+    //void Start()
+    //{
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    //}
 
     private void OnMouseDown()
     {
         CommonAccessibles.ModeState = CommonAccessibles.Mode.PRODUCTION;
         CommonAccessibles.CurrentBuilding = this;
+    }
+
+    public void ApplyTrueDamage(float damage)
+    {
+        GetSetHp -= damage;
+    }
+
+    void OnDeath()
+    {
+        Destroy(gameObject);
     }
 }

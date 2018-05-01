@@ -35,8 +35,8 @@ public static class CommonAccessibles
 
         set
         {
-            OnModeChange(m_ModeState);
             m_ModeState = value;
+            OnModeChange(m_ModeState);
         }
     }
 

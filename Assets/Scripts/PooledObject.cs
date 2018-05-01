@@ -45,9 +45,14 @@ public class PooledObject : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter(Collider other)
+    //private void OnTriggerEnter(Collider other)
+    //{
+
+    //    timer = 0;
+    //    returnToPool();
+    //}
+    private void OnCollisionEnter(Collision collision)
     {
-        timer = 0;
-        returnToPool();
+        
     }
 }

@@ -45,7 +45,7 @@ public class DropDownManager : MonoBehaviour
             case CommonAccessibles.Mode.BUILD:
                 for (int i = 0; i < buildingPlacement.buildingItems.Length; i++)
                 {
-                    dropDown.options.Add(new Dropdown.OptionData(buildingPlacement.buildingItems[i].name));//[i].text = buildingPlacement.buildingItems[i].name;
+                    dropDown.options.Add(new Dropdown.OptionData(buildingPlacement.buildingItems[i].name));
                 }
                 dropDown.Show();
                 break;
