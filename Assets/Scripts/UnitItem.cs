@@ -6,5 +6,5 @@ using UnityEngine;
 public class UnitItem
 {
     public string name;
-
+    public GameObject unit;
 }

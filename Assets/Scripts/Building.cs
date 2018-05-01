@@ -5,6 +5,7 @@ using UnityEngine;
 public class Building : MonoBehaviour
 {
     
+    ProduceUnitsManager produceUnitsObject;
     public UnitItem[] units;
     public int Hp;
 
@@ -17,6 +18,12 @@ public class Building : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+    }
 
+    private void OnMouseDown()
+    {
+        CommonAccessibles.ModeState = CommonAccessibles.Mode.PRODUCTION;
+        CommonAccessibles.CurrentBuilding = this;
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BuildingPlacement : MonoBehaviour
+public class BuildingPlacement : VirtualStateFunction
 {
     public delegate void CreateBuilding();
     CreateBuilding create;
@@ -29,7 +29,13 @@ public class BuildingPlacement : MonoBehaviour
         {
             create();
         }
+    }
 
+
+    public override void ModeManagerResponceHandler(int val)
+    {
+        selectedBuilding = val;
+        create += BuildProccess;
     }
 
 
@@ -41,7 +47,7 @@ public class BuildingPlacement : MonoBehaviour
         Ray ray = cam.ScreenPointToRay(Input.mousePosition);
         Debug.DrawRay(ray.origin, ray.direction * 200, Color.yellow);
 
-        if (Physics.Raycast(ray, out hit, 200,0,QueryTriggerInteraction.Ignore))
+        if (Physics.Raycast(ray, out hit, 200.0f))
         {
 
             //show build area
@@ -54,7 +60,7 @@ public class BuildingPlacement : MonoBehaviour
 
 
 
-            if (Input.GetMouseButtonDown(1))
+            if (Input.GetMouseButtonDown(0))
             {
                 //if (timer >= PlaceRate)
                 //{
@@ -73,10 +79,5 @@ public class BuildingPlacement : MonoBehaviour
         }
     }
 
-    public void OnSelectedBuilding(int value)
-    {
-        create += BuildProccess;
-        selectedBuilding = value;
-    }
 
 }
