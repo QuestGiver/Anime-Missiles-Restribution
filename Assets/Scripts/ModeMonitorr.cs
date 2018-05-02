@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ModeMonitorr : MonoBehaviour
+public class ModeMonitorr : MonoBehaviour//Run in editor mode only
 {
     public string currentMode = CommonAccessibles.ModeState.ToString();
     // Use this for initialization

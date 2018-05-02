@@ -10,10 +10,7 @@ public class DropDownManager : MonoBehaviour
 
     public delegate void receptacleFunction(string value);
 
-
-    //public receptacleFunction<int> modeDependentFunction;//functions added to delegate by external class;
-
-    public receptacleFunction modeDependentFunction;//Str;
+    public receptacleFunction modeDependentFunction;//functions added to delegate by external class;
 
     public BuildingPlacement buildingPlacement;
     public Dropdown dropDown;
