@@ -5,8 +5,8 @@ using UnityEngine;
 public class ProduceUnitsManager : VirtualStateFunction//Only One object per scene
 {
 
-    public override void ModeManagerResponceHandler(int val)
+    public override void ModeManagerResponceHandler(string val)
     {
-        Instantiate(CommonAccessibles.CurrentBuilding.units[val].unit,CommonAccessibles.CurrentBuilding.transform);
+        Instantiate(CommonAccessibles.CurrentBuilding.implamentedUnits[val].unit,CommonAccessibles.CurrentBuilding.transform);
     }
 }

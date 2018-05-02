@@ -3,10 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+
 public class DropDownManager : MonoBehaviour
 {
-    public delegate void receptacleFunction(int value);
-    public receptacleFunction modeDependentFunction;//functions added to delegate by external class;
+
+    public delegate void receptacleFunction(string value);
+
+
+    //public receptacleFunction<int> modeDependentFunction;//functions added to delegate by external class;
+
+    public receptacleFunction modeDependentFunction;//Str;
+
     public BuildingPlacement buildingPlacement;
     public Dropdown dropDown;
     public Text modeText;
@@ -18,15 +26,22 @@ public class DropDownManager : MonoBehaviour
     {
         dropDown.options.Clear();
         dropDown.Hide();
-        for (int i = 0; i < buildingPlacement.buildingItems.Length; i++)
+
+        string[] names = ReturnNameArray(buildingPlacement.implamentedBuildings);
+        for (int i = 0; i < buildingPlacement.implamentedBuildings.Count; i++)
         {
-            dropDown.options.Add(new Dropdown.OptionData(buildingPlacement.buildingItems[i].name));//[i].text = buildingPlacement.buildingItems[i].name;
+            dropDown.options.Add(new Dropdown.OptionData(names[i]));//[i].text = buildingPlacement.buildingItems[i].name;
         }
+
+
         CommonAccessibles.OnModeChange += OptionTextChange;
         dropDown.onValueChanged.AddListener(
                                                 delegate
                                                         {
-                                                            modeDependentFunction(dropDown.value);
+                                                            if (modeDependentFunction != null)
+                                                            {
+                                                                modeDependentFunction(dropDown.options[dropDown.value].text);
+                                                            }
                                                                     Debug.Log(dropDown.value);
                                                         }
                                            );
@@ -43,16 +58,22 @@ public class DropDownManager : MonoBehaviour
         switch (value)
         {
             case CommonAccessibles.Mode.BUILD:
-                for (int i = 0; i < buildingPlacement.buildingItems.Length; i++)
+                string[] names = ReturnNameArray(buildingPlacement.implamentedBuildings);
+
+                for (int i = 0; i < names.Length; i++)
                 {
-                    dropDown.options.Add(new Dropdown.OptionData(buildingPlacement.buildingItems[i].name));
+                    dropDown.options.Add(new Dropdown.OptionData(names[i]));
                 }
                 dropDown.Show();
                 break;
             case CommonAccessibles.Mode.PRODUCTION:
-                for (int i = 0; i < CommonAccessibles.CurrentBuilding.units.Length; i++)
+
+
+                string[] unames = ReturnNameArray(CommonAccessibles.CurrentBuilding.implamentedUnits);
+
+                for (int i = 0; i < CommonAccessibles.CurrentBuilding.implamentedUnits.Count; i++)
                 {
-                    dropDown.options.Add(new Dropdown.OptionData(CommonAccessibles.CurrentBuilding.units[i].name));
+                    dropDown.options.Add(new Dropdown.OptionData(unames[i]));
                 }
                 dropDown.Show();
                 break;
@@ -63,6 +84,17 @@ public class DropDownManager : MonoBehaviour
         }
     }
 
+    public string[] ReturnNameArray<T>(Dictionary<string,T> val)
+    {
+        string[] names = new string[val.Count];
+        int x = 0;
+        foreach (string item in val.Keys)
+        {
+            names[x] = item;
+            x++;
+        }
+        return names;
+    }
 
 
 }

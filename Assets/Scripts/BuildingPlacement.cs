@@ -2,20 +2,40 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
+public struct GivenBuildingContainer
+{
+    public BuildingItem data;
+    public string key;
+}
+
 public class BuildingPlacement : VirtualStateFunction
 {
     public delegate void CreateBuilding();
     CreateBuilding create;
-    int selectedBuilding;
+    string selectedBuilding;
 
     public GameObject buildArea;
 
    // public float PlaceRate;
     public Camera cam;
     //float timer;
-    public BuildingItem[] buildingItems;
+    public GivenBuildingContainer[] givenBuildings;
+
+    public Dictionary<string, BuildingItem> implamentedBuildings = new Dictionary<string, BuildingItem>();
+
 
     // Use this for initialization
+
+    private void Awake()
+    {
+        
+        for (int i = 0; i < givenBuildings.Length; i++)
+        {
+            implamentedBuildings.Add(givenBuildings[i].key, givenBuildings[i].data);
+        }
+    }
+
     void Start()
     {
         //timer = PlaceRate;
@@ -25,6 +45,8 @@ public class BuildingPlacement : VirtualStateFunction
     // Update is called once per frame
     void Update()
     {
+
+
         if (create != null)
         {
             create();
@@ -32,9 +54,9 @@ public class BuildingPlacement : VirtualStateFunction
     }
 
 
-    public override void ModeManagerResponceHandler(int val)
+    public override void ModeManagerResponceHandler(string val)
     {
-        selectedBuilding = val;
+        selectedBuilding = implamentedBuildings[val].name;
         create += BuildProccess;
     }
 
@@ -67,7 +89,7 @@ public class BuildingPlacement : VirtualStateFunction
                 if (hit.collider.tag != "tower" && hit.collider.tag != "Enemy")
                 {
                     buildArea.SetActive(false);
-                    GameObject newBuilding = Instantiate(buildingItems[selectedBuilding].structure, hit.point, new Quaternion(0, 0, 0, 0));
+                    GameObject newBuilding = Instantiate(implamentedBuildings[selectedBuilding].structure, hit.point, new Quaternion(0, 0, 0, 0));
                     CommonAccessibles.ModeState = CommonAccessibles.Mode.COMMAND;                  
                     create = null;
                     // timer = 0;

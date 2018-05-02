@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 [System.Serializable]
-public struct UnityStuff
+public struct GivenUnitContainer
 {
     public UnitItem data;
     public string key;
@@ -10,8 +10,8 @@ public struct UnityStuff
 
 public class Building : MonoBehaviour, IDamageable
 {
-    public List<UnityStuff> stuffs;
-    public Dictionary<string,UnitItem> units;
+    public GivenUnitContainer[] givenUnits;
+    public Dictionary<string,UnitItem> implamentedUnits = new Dictionary<string, UnitItem>();
     private float Hp;
     public float GetSetHp
     {
@@ -26,6 +26,14 @@ public class Building : MonoBehaviour, IDamageable
             {
                 OnDeath();
             }
+        }
+    }
+
+    private void Awake()
+    {
+        foreach (GivenUnitContainer given in givenUnits)
+        {
+            implamentedUnits.Add(given.key, given.data);
         }
     }
 

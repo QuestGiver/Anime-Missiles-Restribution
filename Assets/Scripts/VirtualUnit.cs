@@ -97,10 +97,10 @@ public class VirtualUnit : MonoBehaviour, IDamageable
             }
         }
 
-        if (!mainEnemy.activeInHierarchy)
-        {
-            hasNoTarget = true;
-        }
+        //if (!mainEnemy.activeInHierarchy)
+        //{
+        //    hasNoTarget = true;
+        //}
 
 
 
@@ -117,8 +117,8 @@ public class VirtualUnit : MonoBehaviour, IDamageable
     protected void FireGun()
     {
         GameObject bullet = pool.getObj();
-        bullet.GetComponent<BulletScript>().damage = damage;
-        bullet.GetComponent<BulletScript>().isPlayersBullet = true;
+//        bullet.GetComponent<BulletScript>().damage = damage;
+//        bullet.GetComponent<BulletScript>().isPlayersBullet = true;
         bullet.transform.rotation = transform.rotation;
         bullet.transform.Rotate(Vector3.forward, Random.Range(-180, 180), Space.Self);
         bullet.transform.position = transform.position + (transform.forward * 2);

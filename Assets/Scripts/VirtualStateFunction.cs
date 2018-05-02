@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class VirtualStateFunction : MonoBehaviour
 {
-
-    public virtual void ModeManagerResponceHandler(int val)
+    public virtual void ModeManagerResponceHandler(string val)
     {
 
     }
-
 }

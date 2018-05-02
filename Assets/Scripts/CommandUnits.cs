@@ -5,7 +5,7 @@ using UnityEngine;
 public class CommandUnits : VirtualStateFunction
 {
 
-    public override void ModeManagerResponceHandler(int val)
+    public override void ModeManagerResponceHandler(string val)
     {
 
     }
