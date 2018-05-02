@@ -11,7 +11,7 @@ public class ObjectPool : MonoBehaviour
     public int poolSize;
 
     // Spawns prefabs, adds to stack, assigns parent
-    void Start()
+    void Awake()
     {
         pool = new Stack<GameObject>();
         for (int i = 0; i < poolSize; i++)

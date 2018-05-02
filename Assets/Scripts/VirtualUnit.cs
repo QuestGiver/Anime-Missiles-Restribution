@@ -63,6 +63,11 @@ public class VirtualUnit : MonoBehaviour, IDamageable
         agent.destination = destination;
     }
 
+    protected void Awake()
+    {
+        pool = FindObjectOfType<ObjectPool>();
+    }
+
     // Use this for initialization
     protected virtual void Start()
     {
@@ -79,13 +84,13 @@ public class VirtualUnit : MonoBehaviour, IDamageable
 
         if (hasNoTarget == true)
         {
-            foreach (RaycastHit item in Physics.SphereCastAll(transform.position, attackRange, Vector3.zero, 0, 5))
+            foreach (Collider item in Physics.OverlapSphere(transform.position, attackRange,5))
             {
-                if (item.collider.transform.tag == "Enemy")
+                if (item.transform.tag == "Enemy")
                 {
-                    if (item.collider.gameObject.activeInHierarchy)
+                    if (item.gameObject.activeInHierarchy)
                     {
-                        mainEnemy = item.collider.gameObject;
+                        mainEnemy = item.gameObject;
                         hasNoTarget = false;
                     }
                 }
@@ -112,6 +117,8 @@ public class VirtualUnit : MonoBehaviour, IDamageable
     protected void FireGun()
     {
         GameObject bullet = pool.getObj();
+        bullet.GetComponent<BulletScript>().damage = damage;
+        bullet.GetComponent<BulletScript>().isPlayersBullet = true;
         bullet.transform.rotation = transform.rotation;
         bullet.transform.Rotate(Vector3.forward, Random.Range(-180, 180), Space.Self);
         bullet.transform.position = transform.position + (transform.forward * 2);
